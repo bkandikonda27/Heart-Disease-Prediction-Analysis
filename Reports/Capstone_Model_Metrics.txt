@@ -1,0 +1,139 @@
+﻿Logistic Regression
+	Random Forest Classifier
+	K-Nearest Neighbors
+	Best Parameters
+	C=1, max_iter=50, penalty='l1', and solver='liblinear'
+	max features = log2 and max_depth = 5
+
+
+	N_neighbors = 7
+	Optimal Feature Set
+	11
+	5
+	All
+	ROC-AUC Score
+	0.933
+	0.907
+	0.901
+	Feature List
+	'FastingBS'
+ 'Sex_F' 'ChestPainType_ASY' 'ChestPainType_ATA'
+ 'ChestPainType_NAP' 'RestingECG_LVH' 'RestingECG_Normal'
+ 'ExerciseAngina_Y' 'ST_Slope_Flat' 'ST_Slope_Up' 'scaled_Age'
+'scaled_RestingBP' 'scaled_Cholesterol' 'scaled_MaxHR' 'scaled_Oldpeak'
+
+
+	'ChestPainType_ASY', 'ST_Slope_Flat', 'ST_Slope_Up', 'scaled_MaxHR', 'scaled_Oldpeak'
+	All Features
+	
+
+
+
+Logistic Regression
+	Precision
+	Recall
+	F1-score
+	Support
+	0
+	0.85
+	0.83
+	0.84
+	126
+	1
+	0.86
+	0.87
+	0.87
+	150
+	Accuracy
+	
+
+	
+
+	0.86
+	276
+	Macro Avg
+	0.85
+	0.85
+	0.85
+	276
+	Micro Avg
+	0.85
+	0.86
+	0.85
+	276
+	
+
+
+
+
+
+
+
+Random Forest Classifier
+	Precision
+	Recall
+	F1-score
+	Support
+	0
+	0.87
+	0.79
+	0.83
+	126
+	1
+	0.84
+	0.90
+	0.87
+	150
+	Accuracy
+	
+
+	
+
+	0.85
+	276
+	Macro Avg
+	0.85
+	0.85
+	0.85
+	276
+	Micro Avg
+	0.85
+	0.85
+	0.85
+	276
+	
+
+
+
+KNN
+	Precision
+	Recall
+	F1-score
+	Support
+	0
+	0.86
+	0.77
+	0.81
+	126
+	1
+	0.82
+	0.89
+	0.86
+	150
+	Accuracy
+	
+
+	
+
+	0.84
+	276
+	Macro Avg
+	0.84
+	0.83
+	0.83
+	276
+	Micro Avg
+	0.84
+	0.84
+	0.84
+	276
